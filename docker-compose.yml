@@ -1,5 +1,3 @@
 discussiontool:
   container_name: discussiontool
   image: learninglayers/discussiontool:1.0.2
-  ports:
-    - 80

@@ -12,7 +12,7 @@ RUN apt-get update \
 WORKDIR /opt
 
 # Download DiscussionTool distributive
-RUN wget https://github.com/learning-layers/DiscussionTool/releases/download/v1.0.3/dist.zip \
+RUN wget https://github.com/learning-layers/DiscussionTool/releases/download/v1.0.4/dist.zip \
   && unzip dist.zip \
   && cp -r dist/* /usr/share/nginx/html \
   && rm *.zip \

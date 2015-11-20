@@ -1,3 +1,3 @@
 discussiontool:
   container_name: discussiontool
-  image: learninglayers/discussiontool:1.0.4
+  image: learninglayers/discussiontool:1.0.5

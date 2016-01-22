@@ -1,0 +1,23 @@
+{
+  "application_type": "web",
+  "client_name": "DiscussionTool",
+  "client_uri": "LAYERS_API_URIdiscussiontool",
+  "logo_uri": null,
+  "token_endpoint_auth_method": "client_secret_basic",
+  "redirect_uris": [
+    "LAYERS_API_URIdiscussiontool"
+  ],
+  "grant_types": [
+    "implicit"
+  ],
+  "response_types": [
+    "id_token",
+    "token",
+    "token id_token"
+  ],
+  "scope": "openid phone email address profile"
+  "subject_type": "public",
+  "default_max_age": 300000,
+  "require_auth_time": true,
+  "client_secret_expires_at": 0
+}

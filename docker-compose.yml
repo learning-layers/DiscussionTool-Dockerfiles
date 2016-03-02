@@ -1,6 +1,6 @@
 discussiontool:
   container_name: discussiontool
-  image: learninglayers/discussiontool:1.1.1
+  image: learninglayers/discussiontool:2.0.0
   ports:
     - 80
   env_file:
